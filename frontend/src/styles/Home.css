@@ -1,0 +1,102 @@
+.home-container {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    height: 100vh;
+    width: 100vw;
+    gap: 1rem;
+    overflow: hidden;
+}
+
+.home-container .list-container {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 3rem;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.list-container .list-header {
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.list-container .list-header h1 {
+    margin-bottom: 0;
+}
+
+.list-container .list-header h2 {
+    margin: 0;
+    font-size: 1rem;
+    opacity: 50%;
+}
+
+.home-container .form-container {
+    flex: 1;
+    height: 100%;
+    overflow: hidden;
+    padding: 3rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.form-container form {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    background-color: var(--light-gray);
+    border-radius: 24px;
+    width: 100%;
+    max-width: 340px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-weight: bold;
+    font-size: calc(14rem/16);
+}
+
+.reservation-item {
+    padding: 1.5rem;
+    border-radius: var(--border-radius-base);
+    background-color: var(--light-gray);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.reservation-item .reservation-data {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 0px;
+}
+
+.reservation-item .reservation-data h2 {
+    margin: 0;
+}
+
+.reservation-item .reservation-actions button {}
+
+.delete-button{
+    border: none;
+    background-color: inherit;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.no-information-text {
+    margin: auto;
+    text-align: center;
+}

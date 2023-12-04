@@ -1,0 +1,9 @@
+:root {
+    --primary-color: #1c77ff;
+    --light-gray: #f5f8fa;
+    --dark-gray: #b4c1ca;
+    --input-padding-v: 12px;
+    --input-padding-h: 8px;
+    --border-radius-base: 8px;
+    --padding-base: 12px;
+}
