@@ -62,6 +62,6 @@ The Reservation Application is designed to facilitate the scheduling of meetings
 
 ## Demo
 
-[![Reservation Application Demo]](frontend/demo/04.12.2023_23.21.27_REC.mp4)
+[Reservation Application Demo](frontend/demo/04.12.2023_23.21.27_REC.mp4)
 
-Click the above link to watch the demo video.
+Click the above link to download and watch a quick demo video.
