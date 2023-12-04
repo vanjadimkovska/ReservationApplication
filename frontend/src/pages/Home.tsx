@@ -138,7 +138,7 @@ const Home = () => {
               </button>
             </div>
           </div>)}
-          {reservations.length === 0 && <h2 className="no-information-text">Nema podataka :(</h2>}
+          {reservations.length === 0 && <h2 className="no-information-text">No meetings scheduled</h2>}
         </div>
         <div className="form-container">
           <form onSubmit={createReservation}>
