@@ -59,3 +59,9 @@ The Reservation Application is designed to facilitate the scheduling of meetings
    ```bash
    docker run --name <container-name> -e DB_URL=<db-container-name> -e DB_PORT=5432 -e DB_NAME=<your-database> -e DB_USERNAME=<your-user> -e DB_PASSWORD=<your-password> -p 8081:8081 --network <your-network> <image-name>
    ```
+
+## Demo
+
+[Reservation Application Demo](frontend/demo/04.12.2023_23.21.27_REC.mp4)
+
+Click the above link to download and watch a quick demo video.
