@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import dayjs from "dayjs";
-
 import '../styles/Home.css';
 import Modal from "../components/Modal";
 import Room from "../api/models/Room";
@@ -12,7 +11,6 @@ import { MaterialSymbol } from "react-material-symbols";
 const Home = () => {
   const [rooms, setRooms] = useState<Room[]>([]);
   const [reservations, setReservations] = useState<Reservation[]>([]);
-
   const [selectedRoom, setSelectedRoom] = useState<number>(1);
   const [selectedRoomObject, setSelectedRoomObject] = useState<Room | undefined>(undefined);
   const [title, setTitle] = useState<string>();
@@ -97,7 +95,6 @@ const Home = () => {
     getRooms();
   }, []);
 
-
   useEffect(() => {
     const room = rooms[0];
     if (room) {
@@ -109,8 +106,6 @@ const Home = () => {
   useEffect(() => {
     getReservations();
   }, [selectedRoom]);
-
-
 
   return (
     <>
