@@ -9,24 +9,18 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.time.LocalDateTime;
-import java.time.ZoneId;
-import java.time.ZonedDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Optional;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:5173")
+@RequestMapping("/api/reservations")
 public class ReservationController {
-    private static final Logger log = LoggerFactory.getLogger(ReservationController.class);
 
     @Autowired
     private ReservationRepository reservationRepository;
 
-    @PostMapping("/createReservation/{roomId}")
+    @PostMapping("/create/{roomId}")
     public ResponseEntity<?> createReservation(@PathVariable Long roomId, @RequestBody Reservation reservation) {
         List<Reservation> reservations = reservationRepository.findByReservationDateRange(reservation.getStartAt(), reservation.getEndAt(), roomId);
         if(!reservations.isEmpty()) return ResponseEntity.status(400).body("The meeting you want to schedule overlaps with another meeting in that room. ");
@@ -36,12 +30,12 @@ public class ReservationController {
         return ResponseEntity.ok().body(reservationRepository.save(reservation));
     }
 
-    @GetMapping("/getAllReservations/{roomId}")
+    @GetMapping("/getAll/{roomId}")
     public List<Reservation> getAllReservations(@PathVariable Long roomId) {
         return reservationRepository.findByRoomId(roomId);
     }
 
-    @DeleteMapping("/deleteReservation/{id}")
+    @DeleteMapping("/delete/{id}")
     public ResponseEntity<String> deleteReservation(@PathVariable Long id) {
         Optional<Reservation> optionalReservation = reservationRepository.findById(id);
         if (optionalReservation.isPresent()) {

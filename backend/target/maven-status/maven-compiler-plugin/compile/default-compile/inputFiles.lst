@@ -1,7 +1,7 @@
-C:\Users\atodo\Desktop\ReservationProject\src\main\java\com\example\reservationproject\ReservationProjectApplication.java
-C:\Users\atodo\Desktop\ReservationProject\src\main\java\com\example\reservationproject\model\Reservation.java
-C:\Users\atodo\Desktop\ReservationProject\src\main\java\com\example\reservationproject\model\Room.java
-C:\Users\atodo\Desktop\ReservationProject\src\main\java\com\example\reservationproject\repository\ReservationRepository.java
-C:\Users\atodo\Desktop\ReservationProject\src\main\java\com\example\reservationproject\controller\RoomController.java
-C:\Users\atodo\Desktop\ReservationProject\src\main\java\com\example\reservationproject\repository\RoomRepository.java
-C:\Users\atodo\Desktop\ReservationProject\src\main\java\com\example\reservationproject\controller\ReservationController.java
+C:\Users\atodo\Desktop\ReservationApplication\ReservationApplication\backend\src\main\java\com\example\reservationproject\controller\ReservationController.java
+C:\Users\atodo\Desktop\ReservationApplication\ReservationApplication\backend\src\main\java\com\example\reservationproject\ReservationProjectApplication.java
+C:\Users\atodo\Desktop\ReservationApplication\ReservationApplication\backend\src\main\java\com\example\reservationproject\model\Reservation.java
+C:\Users\atodo\Desktop\ReservationApplication\ReservationApplication\backend\src\main\java\com\example\reservationproject\model\Room.java
+C:\Users\atodo\Desktop\ReservationApplication\ReservationApplication\backend\src\main\java\com\example\reservationproject\repository\ReservationRepository.java
+C:\Users\atodo\Desktop\ReservationApplication\ReservationApplication\backend\src\main\java\com\example\reservationproject\repository\RoomRepository.java
+C:\Users\atodo\Desktop\ReservationApplication\ReservationApplication\backend\src\main\java\com\example\reservationproject\controller\RoomController.java
