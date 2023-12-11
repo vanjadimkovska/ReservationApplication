@@ -30,9 +30,26 @@ The Reservation Application is designed to facilitate the scheduling of meetings
 ### Backend
 
 1. Open a terminal.
-2. Navigate to the "root" directory.
-3. Modify the docker-compose.yml file with your own data.
-4. Run the docker-compose.yml file:
+2. Navigate to the "backend" directory.
+
+   ```bash
+   cd backend
+   ```
+
+3. Build the project using Maven.
+
+   ```bash
+   mvn clean install
+   ```
+
+4. Navigate to the "root" directory.
+
+   ```bash
+   cd ..
+   ```
+   
+5. Modify the docker-compose.yml file with your own data.
+6. Run the docker-compose.yml file:
 
    ```bash
    docker-compose up
