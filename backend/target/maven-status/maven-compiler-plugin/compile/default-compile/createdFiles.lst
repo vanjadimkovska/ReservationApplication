@@ -1,7 +1,0 @@
-com\example\reservationproject\model\Room.class
-com\example\reservationproject\model\Reservation.class
-com\example\reservationproject\controller\RoomController.class
-com\example\reservationproject\controller\ReservationController.class
-com\example\reservationproject\repository\RoomRepository.class
-com\example\reservationproject\ReservationProjectApplication.class
-com\example\reservationproject\repository\ReservationRepository.class
