@@ -3,7 +3,6 @@ package com.example.reservationproject.controller;
 import com.example.reservationproject.model.Reservation;
 import com.example.reservationproject.model.Room;
 import com.example.reservationproject.repository.ReservationRepository;
-import com.example.reservationproject.repository.RoomRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -13,7 +12,6 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
 @RequestMapping("/api/reservations")
 public class ReservationController {
 
